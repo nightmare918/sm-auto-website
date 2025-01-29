@@ -1,0 +1,170 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body
+{
+    background-color:rgb(37, 37, 37);
+}
+
+nav {
+  background-color: #440b0b;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #007a1b;}
+
+.container
+{
+  margin: 100px 0 0 200px;
+  width: 77%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 70px;
+  
+  
+}
+
+.container img
+{
+  width: 20%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  border: 2px solid rgb(245, 5, 5);
+  transition: all ease-in-out 0.5s;
+}
+
+.container img:hover
+{
+  width: 50%;
+}
+
+.mainimg
+{
+ height: 85vh;
+ background-image: url(1.jpg);
+ background-repeat: no-repeat;
+ align-items: center;
+ background-size: cover;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+.mainimg h1
+{   margin-top: -120px;
+    color:rgb(19, 18, 18);
+    font-size: 4rem;
+    animation: fadeIn 2s ease-in-out;
+}
+.mainimg h2
+{
+    color:rgb(253, 249, 249);
+    font-size: medium;
+    animation: fadeIn 2s ease-out;
+}
+.abc
+{
+    height: 400px;
+    width: 100%;
+    background-color: aquamarine;
+
+}
+.container2
+{
+  margin: 100px 0 0 200px;
+  width: 77%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 70px;
+  
+  
+}
+
+.container2 img
+{
+  width: 20%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 2px solid rgb(250, 2, 2);
+  transition: all ease-in-out 0.5s;
+}
+
+.container2 img:hover
+{
+  width: 50%;
+}
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+th, td {
+  padding: 12px 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+th {
+  background-color: #333;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tr:hover {
+  background-color: #ddd;
+}
+.price {
+  color: #1E8E3E;
+  font-weight: bold;
+}
+.car-image {
+  max-width: 100px;
+  height: auto;
+}
